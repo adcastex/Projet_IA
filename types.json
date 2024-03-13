@@ -1,0 +1,14 @@
+{
+    "Pâte": {
+        "types": ["Carbonara", "Bolognaise", "Pesto", "Beurre", "Fromage"]
+    },
+    "Pizza": {
+        "types": ["Margherita", "Pepperoni", "Quatre Fromages", "Vegetarienne"]
+    },
+    "Glace": {
+        "types": ["Vanille", "Chocolat", "Fraise","Menthe chocolat","Pistache","Framboise","Caramel au beurre salé","Cookies and Cream","Stracciatella","Fruit de la passion"]
+    },
+    "Lasagne":{
+        "types": ["Bolognaise", "Vegetarienne","Saumon","Epinard","Chèvre","Courgette","Aubergine","Poireaux","Brocolis"]
+    }
+}
