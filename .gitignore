@@ -1,0 +1,9 @@
+.DS_Store
+
+# extension
+*.jpeg
+
+
+# repertoire 
+/Model/data
+/env_proj
