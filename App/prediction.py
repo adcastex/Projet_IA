@@ -6,7 +6,7 @@ IMG_HEIGHT = 64
 IMG_WIDTH = 64
 IMG_CHANNELS = 3
 
-PATH="my_model.h5"
+PATH="Model/my_model.h5"
 
 li=["Pizza","glace","pates"]	
 
@@ -16,5 +16,6 @@ def predi(img):
 
     model=load_model(PATH)
     pred=model.predict(img)
-
-    return li[pred.index(max(pred))]
+    print(pred.shape)
+    liste=list(pred[0,:])
+    return li[liste.index(max(liste))]

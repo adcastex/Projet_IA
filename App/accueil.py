@@ -12,21 +12,30 @@ def main():
 
 # Afficher le logo centré
     st.image(logo_resized, width=400)
+
+
 if __name__ == "__main__":
     main()
 # Onglets
-menu = st.sidebar.selectbox(
-    "Navigation",
-    ("Importation image", "Affichage recette", "map")
-)
+onglet_selectionne = st.sidebar.radio("Navigation", ["Importation image", "Affichage recette", "map"])
 
 # Contenu de chaque onglet
-if menu == "Importation image":
+if onglet_selectionne == "Importation image":
     st.header("Importation image")
     # Ajoutez ici le contenu de votre premier onglet
-elif menu == "Affichage recette":
+elif onglet_selectionne == "Affichage recette":
     st.header("Affichage recette")
     # Ajoutez ici le contenu de votre deuxième onglet
-elif menu == "map":
+elif onglet_selectionne == "map":
     st.header("map")
     # Ajoutez ici le contenu de votre troisième onglet
+
+
+
+    # Afficher le contenu en fonction de l'onglet sélectionné
+if onglet_selectionne == "Page 1":
+    st.subheader("Page 1")
+    st.write("Contenu de la page 1 ici...")
+elif onglet_selectionne == "Page 2":
+    st.subheader("Page 2")
+    st.write("Contenu de la page 2 ici...")
