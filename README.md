@@ -22,11 +22,11 @@ Notre modèle ne reconnaît que les plats de pâtes, de pizzas et les glaces.
 Assurez-vous que Docker-desktop est installé sur votre machine. Si ce n'est pas le cas, téléchargez et installez Docker depuis : https://www.docker.com/get-started/ site officiel de Docker.
 Ouvrez un terminal et exécutez la commande suivante pour télécharger l'image Docker de l'application:
 
-** docker pull natachaperez/stest:0.1 **
+**docker pull natachaperez/stest:0.1**
 
 Exécutez l'application Streamlit dans un conteneur Docker en utilisant la commande suivante:
 
-** docker run --rm -p 8501:8501 -it natachaperez/stest:0.1 **
+**docker run --rm -p 8501:8501 -it natachaperez/stest:0.1**
 
 ## Guide d'utilisation : 
 
