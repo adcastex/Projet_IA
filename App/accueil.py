@@ -6,18 +6,20 @@ import osmnx as ox
 import geopandas as gpd
 import json
 
-# Entête
+
+
+
 def main():
     st.set_page_config(page_title="Multipage_app")
-    st.title("Application de détection de plat et affichage de la recette")
-    st.write("Bienvenue dans notre application ! Cette application a pour objectif de vous proposez des recettes du plat en fonction de l'image importé et la localisation des supermarchés ou vous rendre si besoin pour acheter vos ingrédients. Nous vous invitons à explorez les différents onglets.")
-    logo = Image.open("App/Logo.png")
-
-# Redimensionner l'image du logo
+    st.title("Piatto Pronto")
+    logo = Image.open("Logo.png")
     logo_resized = logo.resize((200, 200))
 
-# Afficher le logo centré
-    st.image(logo_resized, width=400)
+    st.image(logo_resized, width=100)
+    st.write("Bienvenue dans notre application ! Cette application a été réalisée durant le challenge de Web mining à la fin de notre année de Master SISE. L'objectif, est de réaliser une application IA. \n Notre application permet à nos utilisateurs de retrouver facilement des recettes de plats  vu durant leur journée.")
+
+
+
 
 if __name__ == "__main__":
     main()

@@ -1,12 +1,27 @@
 import streamlit as st
+import time
 
-# Ajouter des onglets à la barre latérale
-onglet_selectionne = st.sidebar.radio("Navigation", ["Page 1", "Page 2"])
+def afficher_chronometre(ss):
+    temps_ecoule = int(time.time() - ss)
+    heures = temps_ecoule // 3600
+    minutes = (temps_ecoule % 3600) // 60
+    secondes = temps_ecoule % 60
+    st.write(f"Temps écoulé : {heures:02}:{minutes:02}:{secondes:02}")
 
-# Afficher le contenu en fonction de l'onglet sélectionné
-if onglet_selectionne == "Page 1":
-    st.subheader("Page 1")
-    st.write("Contenu de la page 1 ici...")
-elif onglet_selectionne == "Page 2":
-    st.subheader("Page 2")
-    st.write("Contenu de la page 2 ici...")
+
+st.title("Chronomètre")
+
+if("start" not in st.session_state):
+    st.session_state.start = 0
+st.write(st.session_state.start)
+start_button = st.button("Démarrer")
+reset_button = st.button("Réinitialiser")
+
+if start_button:
+    st.session_state.start = time.time()
+
+if reset_button:
+    st.session_state.start = 0
+
+if st.session_state.start !=0:
+    afficher_chronometre(st.session_state.start)

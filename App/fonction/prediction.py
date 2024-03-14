@@ -7,7 +7,7 @@ IMG_HEIGHT = 64
 IMG_WIDTH = 64
 IMG_CHANNELS = 3
 
-PATH="App/fonction/my_model.h5"
+PATH="fonction/my_model.h5"
 
 li=["Pizza","Glace","Pâtes"]	
 
