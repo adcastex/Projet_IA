@@ -2,6 +2,8 @@ import streamlit as st
 from PIL import Image
 import numpy as np
 import json
+
+
 st.title("Import image")
 
 image_file = st.file_uploader("Choisissez une image", type=["jpg", "png", "jpeg"])
