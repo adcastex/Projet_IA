@@ -35,9 +35,7 @@ Vous avez à disposition une barre de menu située sur la gauche de la page, vou
 
 ### Page d'acceuil :
 
-Cette première page vous présente l'objectif du challenge:
-
-![Texte alternatif](chemin/vers/image.png)
+Cette première page vous présente l'objectif du challenge. Vous pouvez également voir notre logo et le nom de l'application.
 
 ### Page Importation d'image :
 
@@ -45,9 +43,8 @@ Vous pouvez ici télécharger une image du plat qui vous intéresse, notre modè
 Ensuite, vous avez la possibilité de préciser la recette que vous souhaitez. Par exemple : J'ai une photo de pâtes que l'application a reconnue et je souhaite qu'elle me retourne une recette de pâtes au pesto.
 Une fois cette spécification réalisée, vous avez le nom, le temps de préparation, le budget, les ingrédients et les différentes étapes de la recette..
 
-![Texte alternatif](chemin/vers/image.png)
 ### Page Cartographie:
 
 Ici, vous n'avez qu'à entrer l'adresse à laquelle vous vous trouvez et l'application vous montre l'ensemble des supermarchés proches de vous. La carte affichée met en avant le magasin le plus proche et l'itinéraire à prendre pour vous y rendre.
 
-![Texte alternatif](chemin/vers/image.png)
+## Bonne utilisation !
