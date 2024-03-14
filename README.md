@@ -13,17 +13,16 @@ M. Ricco RAKOTOMALALA
 
 ## Introduction : 
 
-Dans le cadre de notre challenge de fin d'année, nous avons du réaliser une application IA qui permet le traitement de données non-strucurées (images).
-Pour cela, nous avons décidé de créer une application permettant aux utilisateurs de retrouver des recettes de plats qu'ils ont vu dans la journée, et de les guider vers le supermarché le plus proche de leur position s'ils n'ont pas tous les ingrédients.
+Dans le cadre de notre challenge de fin d'année, nous avons dû réaliser une application IA qui permet le traitement de données non-structurées (images). Pour cela, nous avons décidé de créer une application permettant aux utilisateurs de retrouver des recettes de plats qu'ils ont vus dans la journée, et de les guider vers le supermarché le plus proche de leur position s'ils n'ont pas tous les ingrédients.
 
-Notre modèle ne reconnait que les plâts de pâtes, de pizzas et les glaces.
+Notre modèle ne reconnaît que les plats de pâtes, de pizzas et les glaces.
 
 ## Guide d'installation :
 
 ## Guide d'utilisation : 
 
-Une fois que vous avez suivis le guide d'installation l'application se lance automatiquement. 
-Vous avez à disposition une barre de menu située sur la gauche de la page, vous permettant de vous balader dans les différents onglets de l'application que nous allons vous présenter ci-dessous.
+Une fois que vous avez suivi le guide d'installation, l'application se lance automatiquement. 
+Vous avez à disposition une barre de menu située sur la gauche de la page, vous permettant de naviguer dans les différents onglets de l'application que nous allons vous présenter ci-dessous.
 
 ### Page d'acceuil :
 
@@ -33,14 +32,13 @@ Cette première page vous présente l'objectif du challenge:
 
 ### Page Importation d'image :
 
-Vous pouvez ici télécharger une image du plât qui vous intéresse, notre modèle affichera ensuite le type de plât que s'est (pâte, pizza ou glace).
-Vous avez ensuite la possibilité de préciser la recette que vous voulez. Par exemple: J'ai une photo de pâte que l'application a reconnue et je souhaite qu'elle me retourne une recette de pâte au pesto. 
-Une fois cette spécification réalisée vous avez le nom, le temps de préparation, le budget, les ingrédients et les différentes étapes de la recette.
+Vous pouvez ici télécharger une image du plat qui vous intéresse, notre modèle affichera ensuite le type de plat qu'il s'agit (pâte, pizza ou glace).
+Ensuite, vous avez la possibilité de préciser la recette que vous souhaitez. Par exemple : J'ai une photo de pâtes que l'application a reconnue et je souhaite qu'elle me retourne une recette de pâtes au pesto.
+Une fois cette spécification réalisée, vous avez le nom, le temps de préparation, le budget, les ingrédients et les différentes étapes de la recette..
 
 [ INSERER IMAGE ]
 ### Page Cartographie:
 
-Ici vous n'avez qu'à entrer l'adresse à laquelle vous vous trouvez et l'application vous montrel'ensemble des supermarché proche de vous. 
-La carte affichée met en avant le magasin le plus proche et l'itinéraire à prendre pour vous y rendre.
+Ici, vous n'avez qu'à entrer l'adresse à laquelle vous vous trouvez et l'application vous montre l'ensemble des supermarchés proches de vous. La carte affichée met en avant le magasin le plus proche et l'itinéraire à prendre pour vous y rendre.
 
 [ INSERER IMAGE ]
